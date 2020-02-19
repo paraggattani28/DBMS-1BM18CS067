@@ -28,8 +28,8 @@ COMMIT;
 
 DROP TABLE STUDENT;
 
-insert into STUDENT values ('063', 'NIMIT SAJAL', 20, 10.5, 'CSE');
-insert into STUDENT values ('062', 'NAMAN AGARWAL', 19, 9.5, 'ISE');
+insert into STUDENT values ('063', 'NITESH', 20, 10.5, 'CSE');
+insert into STUDENT values ('062', 'NIMIT', 19, 9.5, 'ISE');
 insert into STUDENT values ('064', 'RUTAZEET ROUT', 19, 8.5, 'CV');
 insert into STUDENT values ('065', 'PARAG GATTANI', 20, 8.5, 'ME');
 insert into STUDENT values ('066', 'NIDHISH LAKHINANA', 18, 7.5, 'BIO');
