@@ -44,4 +44,4 @@ insert into enroll values('1DB01CS05', '44', 5, 75);
 
 select * from enroll;
 
-select course_id, ISBN, title from text T, course C, book_adoption B where C.dept = 'CSE' AND C.course_id = B.course_id AND B.ISBN = T.ISBN;
+select C.course_id, T.ISBN, T.title from text T, course C, book_adoption B where C.dept = 'CSE' AND C.course_id = B.course_id AND B.ISBN = T.ISBN order by T.title;
